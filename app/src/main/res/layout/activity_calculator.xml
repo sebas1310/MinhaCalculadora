@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".calculator">
+
+
+    <EditText
+        android:id="@+id/opr1XML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="OPR1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/opr2XML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:hint="OPR2"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sumaXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="suma" />
+
+        <Button
+            android:id="@+id/restaXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="resta" />
+
+        <Button
+            android:id="@+id/multXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="multiply" />
+
+        <Button
+            android:id="@+id/divisionXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="division" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultXML"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="RESULTADO"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

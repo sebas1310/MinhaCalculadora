@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         calcBtc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent calcIntent = new Intent(MainActivity.this, calculadora.class);
+                Intent calcIntent = new Intent(MainActivity.this, calculator.class);
                 startActivity(calcIntent);
             }
         });
